@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
-    <main className={styles.container}>
+    <main className='pl-4 pr-4'>
       <div class='details flex flex-col'>
         <h1 class='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Détails</h1>
         <div>
@@ -45,7 +45,18 @@ export default function Home() {
             <li><h2 class='text-sm font-medium pt-2 '>Stage développeur web, OANNA Nandrin</h2></li>
             <li><p class='text-xs text-slate-300 pb-1'>Septembre 2020 - Décembre 2020</p></li>
             <li><p class='text-xs'>Stage en entreprise de 3 mois dans une agence de communication (Prestashop, Cms made simple, JQuery, Symfony)</p></li>
-          </ul>
+        </ul>
+        <ul>
+            <li><h2 class='text-sm font-medium pt-2 '>Educateur spécialisé, A1 Bruxelles</h2></li>
+            <li><p class='text-xs text-slate-300 pb-1'>2021 - ... </p></li>
+            <li><p class='text-xs'>Agent éducation milieu des sans abris</p></li>
+        </ul>
+        <ul>
+            <li><h2 class='text-sm font-medium pt-2 '>Développeur indépendant</h2></li>
+            <li><p class='text-xs text-slate-300 pb-1'>2021 - ... </p></li>
+            <li><p class='text-xs'>Perfectionnement de mes acquis et connaissances</p></li>
+        </ul>
+        
       </div>
       <div class='skills flex flex-col'>
         <h1 class='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Compétences</h1>
@@ -60,6 +71,7 @@ export default function Home() {
           <li><p class='text-xs'>Php & POO</p></li>
           <li><p class='text-xs'>Wordpress</p></li>
           <li><p class='text-xs'>Prestashop</p></li>
+          <li><p class='text-xs'>TailwindCSS</p></li>
           <li><p class='text-xs'>Git</p></li>
           <li><p class='text-xs'>Communication</p></li>
           <li><p class='text-xs'>Envie d'apprendre</p></li>
@@ -69,6 +81,11 @@ export default function Home() {
       </div>
       <div class='languages flex flex-col'>
         <h1 class='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Langues</h1>
+        <ul class='pt-2 '>
+          <li><h2 class='text-sm font-medium'>Français</h2></li>
+            <li><h2 class='text-sm font-medium'>Anglais</h2></li>
+            
+        </ul>
       </div>
       
     </main>
