@@ -11,7 +11,7 @@ export default function Home() {
         <div className='md:flex md:flex-row md:flex-wrap'>
           <ul className='md:pr-16 md:basis-1/2'>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Contact</h2></li>
-            <li><p className='text-xs'>35, Tienne Jean-Pierre, 5150 FLOREFFE</p></li>
+            <li><p className='text-xs'>5150 FLOREFFE</p></li>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Nationalité</h2></li>
             <li><p className='text-xs'>BELGIQUE</p></li>
             <li><a className='text-xs' href='mailto:julienbroens@gmail.com'>julienbroens@gmail.com</a></li>
