@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='pl-4 pr-4 pb-6 md:pt-4'>
-      <section className="wrapper">
-      <div className='details flex flex-col lg:pb-6'>
+      <section className="wrapper md:p-8 lg:p-10">
+      <div className='details flex flex-col lg:pb-6 '>
         <h1 className='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Détails</h1>
         <div className='md:flex md:flex-row md:flex-wrap'>
           <ul className='md:pr-16 md:basis-1/2'>
