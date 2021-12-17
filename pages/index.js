@@ -5,10 +5,11 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='pl-4 pr-4 pb-6 md:pt-4'>
+      <section className="wrapper">
       <div className='details flex flex-col lg:pb-6'>
         <h1 className='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Détails</h1>
         <div className='md:flex md:flex-row md:flex-wrap'>
-          <ul className='md:pr-16'>
+          <ul className='md:pr-16 md:basis-1/2'>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Contact</h2></li>
             <li><p className='text-xs'>35, Tienne Jean-Pierre, 5150 FLOREFFE</p></li>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Nationalité</h2></li>
@@ -16,7 +17,7 @@ export default function Home() {
             <li><a className='text-xs' href='mailto:julienbroens@gmail.com'>julienbroens@gmail.com</a></li>
             <li><a className='text-xs' href='tel:0032474226665'>+32 474 22 66 65</a></li>
           </ul>
-          <ul>
+          <ul className='md:basis-1/2'>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Permis de conduire</h2></li>
             <li><p className='text-xs'>Permis B (véhicule personnel)</p></li>
             <li><h2 className='text-sm font-medium pt-2 pb-1'>Date de naissance</h2></li>
@@ -25,7 +26,7 @@ export default function Home() {
         </div>
       </div>
       <div className='lg:flex lg:flex-wrap lg:pb-6'>
-        <div className='experiences flex flex-col lg:pr-8 lg:border-r-2'>
+        <div className='experiences flex flex-col lg:pr-8 lg:border-r-2 md:basis-1/2'>
           <h1 className='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Expériences profesionnelles</h1>
           <ul>
               <li><h2 className='text-sm font-medium pt-2 '>Educateur spécialisé, A1 Liège</h2></li>
@@ -59,7 +60,7 @@ export default function Home() {
           </ul>
           
         </div>
-        <div className='skills flex flex-col lg:pl-8'>
+        <div className='skills flex flex-col lg:pl-8 md:basis-1/2'>
           <h1 className='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Compétences</h1>
           <ul className='pt-2 '>
             <li><p className='text-xs pb-1 lg:pb-2'>HTML & CSS</p></li>
@@ -81,7 +82,7 @@ export default function Home() {
             </ul>
         </div>
       </div>
-      <div className='languages flex flex-col lg:pb-6'>
+      <div className='languages flex flex-col lg:pb-6 '>
         <h1 className='bg-slate-800 text-white uppercase pl-1 pr-1 mt-3 w-fit'>Langues</h1>
         <ul className='pt-2 '>
           <li><h2 className='text-sm font-medium'>Français</h2></li>
@@ -89,7 +90,7 @@ export default function Home() {
             
         </ul>
       </div>
-      
+      </section>
     </main>
   )
 }
